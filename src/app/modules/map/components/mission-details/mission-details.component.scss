@@ -12,7 +12,8 @@
 .mission-details {
   background: black;
   display: grid;
-  grid-template-columns: 65% 35%;
+  //grid-template-columns: 65% 35%;
+  grid-template-columns: 1fr;
   min-width: 1vw;
 
   > div {
