@@ -2,11 +2,13 @@
 
 .app-logo {
   position: absolute;
-  margin: 35px 0;
+  margin: 20px 0;
   left: 50%;
   transform: translateX(-50%);
+  max-width: 50%;
 
   @include mq($min-width: 767px) {
+    max-width: none;
     margin: 35px;
     top: 0;
     left: 0;

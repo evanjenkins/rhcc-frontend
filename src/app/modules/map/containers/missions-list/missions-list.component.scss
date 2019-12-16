@@ -8,7 +8,7 @@
   right: 0;
   background: rgba($dark-blue, 0.8);
   display: grid;
-  grid-template-rows: 120px 1fr 120px;
+  grid-template-rows: 60px 1fr 120px;
   grid-template-columns: 5vw 1fr 5vw;
 
   @include mq($min-width: 767px) {
@@ -23,6 +23,10 @@
   display: grid;
   grid-template-rows: auto 1fr;
   min-height: 1vh;
+
+  @include mq($min-width: 767px) {
+    min-height: 1vh;
+  }
 
   ul {
     min-height: 1vh;

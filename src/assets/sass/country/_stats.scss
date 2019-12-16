@@ -30,9 +30,13 @@
       span {
         margin-right: 10px;
         font-weight: bold;
-        font-size: rem(72px);
+        font-size: rem(20px);
         color: #BBBDBF;
         text-align: left;
+
+        @include mq($min-width: 767px) {
+          font-size: rem(72px);
+        }
       }
 
       @include mq($min-width: 767px) {
