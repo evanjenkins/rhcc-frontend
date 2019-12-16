@@ -4,6 +4,16 @@
   position: absolute;
   display: flex;
   flex-flow: column;
-  bottom: 0px;
+  bottom: 70px;
   padding: 35px;
+
+  @include mq($min-width: 767px) {
+    bottom: 0;
+  }
+
+  sub {
+    color: #BBBDBF;
+    margin-top: 10px;
+    font-style: italic;
+  }
 }

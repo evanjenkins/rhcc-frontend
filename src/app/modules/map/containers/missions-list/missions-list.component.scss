@@ -9,7 +9,12 @@
   background: rgba($dark-blue, 0.8);
   display: grid;
   grid-template-rows: 120px 1fr 120px;
-  grid-template-columns: 20vw 1fr 20vw;
+  grid-template-columns: 5vw 1fr 5vw;
+
+  @include mq($min-width: 767px) {
+    grid-template-rows: 120px 1fr 120px;
+    grid-template-columns: 20vw 1fr 20vw;
+  }
 }
 
 .country-list {

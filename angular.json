@@ -32,6 +32,7 @@
             ],
             "stylePreprocessorOptions": {
               "includePaths": [
+                "./node_modules/sass-mediaqueries",
                 "src/assets/sass"
               ]
             }
